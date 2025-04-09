@@ -1,6 +1,5 @@
 # 🃏 Blackjack CLI – Workshop Git
 
----
 
 ## 🔍 Description du projet
 
@@ -10,7 +9,6 @@ L'objectif principal est **d'apprendre à utiliser Git efficacement en équipe**
 
 Le jeu est découpé en modules (`deck`, `card`, `game`, etc.), avec des TODO dispersés dans le code source pour simuler des évolutions et corrections à apporter en respectant **les bonnes pratiques Git**.
 
----
 
 ## 📋 Tâches à réaliser dans le code (`TODO`)
 
@@ -25,7 +23,6 @@ Voici une sélection de tâches présentes dans le code à compléter :
 
 Cette liste est non exhaustive et les TODO sont dans tous les fichiers hors headers, Makefile et Readme
 
----
 
 ## 📘 Déroulé type d'une contribution pendant le workshop
 
@@ -39,7 +36,6 @@ Voici un scénario type que vous suivrez pendant le workshop pour chaque contrib
 6. **Merge de la branche** dans branche de développement (main étant considéré comme une branche de **production**)
 7. **Rebase des autres membres du groupe** en cas de modification de la branche de développement
 
----
 
 ## 🛠️ Compilation et tests
 
@@ -50,7 +46,6 @@ Voici un scénario type que vous suivrez pendant le workshop pour chaque contrib
 - `make clean` : Nettoyage des dossiers
 - `make re` : Nettoyage et compilation de l'application principale
 
----
 
 ## 📌 Objectifs pédagogiques
 
