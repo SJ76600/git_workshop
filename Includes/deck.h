@@ -2,8 +2,12 @@
 #define DECK_H
 
 #include "card.h"
+#include <stdlib.h>
+#include <time.h>
 
-#define DECK_SIZE 52
+#ifndef DECK_SIZE
+  #define DECK_SIZE 52
+#endif
 
 typedef struct {
   Card cards[DECK_SIZE];

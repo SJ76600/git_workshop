@@ -4,7 +4,7 @@ CFLAGS = -Wall -Wextra -IIncludes -g
 SRC_DIR = Srcs
 TEST_DIR = Test
 
-BIN = mon_projet
+BIN = blackjack
 
 SOURCES = $(wildcard $(SRC_DIR)/*.c)
 OBJECTS = $(SOURCES:.c=.o)
@@ -23,5 +23,7 @@ clean:
 test: $(OBJECTS) $(wildcard $(TEST_DIR)/*.c)
 	$(CC) $(CFLAGS) -o test_suite $(OBJECTS) $(wildcard $(TEST_DIR)/*.c)
 	./test_suite
+
+re: clean all
 
 .PHONY: all clean test

@@ -1,22 +1,20 @@
-#ifndef GAME_H
-#define GAME_H
+#ifndef CARD_H
+#define CARD_H
 
-#include "deck.h"
+#include <stdio.h>
+
+typedef enum {
+    HEARTS,
+    DIAMONDS,
+    CLUBS,
+    SPADES
+  } Suit;
 
 typedef struct {
-    Deck deck;
-    Card player_cards[10];
-    int player_card_count;
-    Card dealer_cards[10];
-    int dealer_card_count;
-} Game;
+    int value;
+    Suit suit;
+} Card;
 
-void init_game(Game *game);
-void display_game(const Game *game);
-void player_hit(Game *game);
-void dealer_play(Game *game);
-
-// Calcule le score d'une main (prend en compte les as, TODO: améliorer la gestion)
-int compute_score(Card *cards, int count);
+void print_card(const Card *card);
 
 #endif
