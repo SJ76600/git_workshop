@@ -33,7 +33,8 @@ int main() {
                 // TODO: Vérifier immédiatement si le score du joueur dépasse 21 après avoir tiré une carte
                     player_hit(&game);
             display_game(&game);
-            // TODO: Si le score dépasse 21, déclarer la défaite et terminer la partie
+            if (compute_score(game.player_cards, game.player_card_count) > 21)
+                printf("Score > 21, busted, defaite !");
             break;
             case 2:
                 dealer_play(&game);
