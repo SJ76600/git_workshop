@@ -25,7 +25,6 @@ int main() {
         print_menu();
         if (scanf("%d", &choice) != 1) {
             printf("Entrée invalide, veuillez entrer un chiffre.\n");
-            // TODO: Vider le buffer d'entrée pour éviter les erreurs répétées
             return 1;
         }
 
