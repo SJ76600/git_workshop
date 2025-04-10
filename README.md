@@ -30,7 +30,7 @@ Voici un scénario type que vous suivrez pendant le workshop pour chaque contrib
 
 1. **Création d'une issue** sur GitHub
 2. **Création d'une branche avec un nom explicite** pour résoudre l'issue
-3. **Utilisation de `git add -p`** pour chaque modification
+3. **Utilisation de `git add -p`** pour comprendre comment utiliser la commande
 4. **Création d'une pull request** aprés push
 5. **Code review d'un membre de l'équipe**
 6. **Merge de la branche** dans branche de développement (main étant considéré comme une branche de **production**)
